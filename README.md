@@ -2,7 +2,7 @@
 Grabbing OSx acquisition attribution info from DMGs. 
 
 ## What does this thing do?
-In its current state, this add-on simply grabs the URL xattr information from the lastest DMG you've mounted on your system. It does so by doing the following (in order) in a child-process within a Firefox SDK add-on:
+In its current state, this add-on simply grabs source URL information (download link and download source) from the lastest DMG you've mounted on your system. It does so by doing the following (in order) in a child-process within a Firefox SDK add-on:
 
  1. Runs `/usr/bin/hdiutil info` 
  2. Parses the result of 1 to grab the File System location of the most recently mounted DMG
