@@ -1,0 +1,15 @@
+{
+  "title": "OSxAttribution",
+  "name": "francesco",
+  "version": "0.0.1",
+  "description": "Grabbing OSx acquisition attribution info from DMGs",
+  "main": "index.js",
+  "author": "Francesco",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MPL 2.0",
+  "keywords": [
+    "jetpack"
+  ]
+}
